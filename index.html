@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Money Converter</h1>
+        </header>
+        <main>
+            <label for="" id="label-select-from"> Converter de:
+                <select name="" id="select-from">
+                    <option value="">R$ Real Brasileiro</option>
+                </select>
+            </label>
+            <label for="" id="label-select-to"> Converter para:
+                <select name="" id="select-to">
+                    <option value="dolar">US$ Dolar Americano</option>
+                    <option value="euro">€ Euro</option>
+                </select>
+            </label>
+            <label for="" id="input-money-value"> Valor:
+                <input id="money-value" type="number" placeholder="R$ 10.000,00">
+            </label>
+            <button id="convert-money" type="button">Converter</button>
+        
+        <section>
+            <div class="money-from">
+                <img id="money-from-img" src="img/brasil 2.svg" alt="simbolo-brasil">
+                <p id="money-from-result">Real</p>
+                <p id="money-from-result-value">R$ 10.000,00</p>
+            </div>
+
+            <img src="img/Vector.png" alt="">
+
+            <div class="money-to">
+                <img id="money-to-img" src="img/estados-unidos (1) 1.svg" alt="simbolo-eua">
+                <p id="money-to-result">Dolar</p>
+                <p id="money-to-result-value">U$ 10.000,00</p>
+            </div>
+        </section>
+    </main>
+    </div>
+    <script src="main.js" defer>
+    </script>
+</body>
+
+
+</html>
